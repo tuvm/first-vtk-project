@@ -1,0 +1,27 @@
+{
+  "name": "first-vtk-project",
+  "version": "1.0.0",
+  "description": "My first project for learning vtk.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --mode=development",
+    "start": "webpack serve --progress --mode=development --static=public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vtkjs",
+    "dicom",
+    "rendering",
+    "medical"
+  ],
+  "author": "Vu Minh Tu",
+  "license": "ISC",
+  "dependencies": {
+    "@kitware/vtk.js": "^24.10.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
